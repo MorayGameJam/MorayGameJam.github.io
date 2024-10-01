@@ -1,0 +1,65 @@
+h1, h2 {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: var(--dark_purple);
+}
+.gallery_container img {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery_contents {
+    display: block;
+    text-align: center;
+}
+
+.video_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25;
+}
+
+.contact_us p, .contact_us p a{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .gallery_container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }    
+
+    .gallery_contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .gallery_container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }    
+
+    .gallery_contents {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+
+}

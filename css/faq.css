@@ -1,0 +1,26 @@
+body{
+    background-color: var(--dark_purple);
+}
+
+main {
+    min-height: 92vh;
+
+}
+
+h1, h2 {
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact_us p, .contact_us p a{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    main {
+        margin: 0 15%;
+    }
+}
