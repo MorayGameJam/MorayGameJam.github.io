@@ -227,6 +227,7 @@
     width: 100%;
     text-align: center;
     list-style: none;
+    padding: 0px;
   }
 
   #nav_buttons_mobile ul li a {
