@@ -567,3 +567,28 @@ body.toggled>.hero_section>#tiles>.tile:hover {
         width: 16vw;
     }
 }
+
+@media screen and (max-height: 750px) {
+    .hero_section {
+        min-height: 700px;
+        max-height: 700px;
+    }
+
+    #tiles {
+        min-height: 700px;
+        max-height: 700px;
+    }
+
+    .hero_header {
+        top: 225px;
+    }
+
+    .hero_header2 {
+        top: 475px;
+    }
+
+    .hero_button {
+        top: 550px;
+        transform: translate(-50%, 0%);
+    }
+}
