@@ -17,12 +17,12 @@
 <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48" type="image/png">
 <link rel="shortcut icon" href="/assets/favicon/favicon.ico" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/assets/favicon/favicon.ico" sizes="48x48" type="image/png">
-<link rel="apple-touch-icon-precomposed" href="/assets/favicon/favicon.ico" sizes="48x48" type="image/png">    <meta name="Description" content="The Moray Game Jam is back for 2025, 7th - 9th March. A competition at UHI Moray where teams have 48 hours to make a video or board game.">
+<link rel="apple-touch-icon-precomposed" href="/assets/favicon/favicon.ico" sizes="48x48" type="image/png">    <meta name="Description" content="The Moray Game Jam is back for 2026, 6th - 8th March. A competition at UHI Moray where teams have 48 hours to make a video or board game.">
     <title>Moray Game Jam</title>
     <link rel="canonical" href="https://www.moraygamejam.com">
 
     <meta property="og:title" content="Moray Game Jam | Design, Create, Play">
-    <meta property="og:description" content="Moray Game Jam - 7th - 9th March 2025">
+    <meta property="og:description" content="Moray Game Jam - 6th - 8th March 2026">
     <meta property="og:url" content="https://www.moraygamejam.com">
     <link rel="stylesheet" href="/css/home.css">
 </head>
@@ -86,12 +86,130 @@
     <header class="hero_section">
         <div id="tiles"></div>
         <h1 class="hero_header">Design, Create, Play</h1>
-        <h2 class="hero_header2">March 7th - 9th, UHI Moray</h2>
-        <!-- h2 class="hero_header2">Design, Create, Play</h2 -->
+        <div class="countdown-container">
+     <div class="countdown-block">
+         <div class="time-value" id="days">00</div>
+         <div class="time-unit">Days</div>
+     </div>
+     <div class="time-separator">:</div>
+     <div class="countdown-block">
+         <div class="time-value" id="hours">00</div>
+         <div class="time-unit">Hours</div>
+     </div>
+     <div class="time-separator">:</div>
+     <div class="countdown-block">
+         <div class="time-value" id="minutes">00</div>
+         <div class="time-unit">Minutes</div>
+     </div>
+     <div class="time-separator">:</div>
+     <div class="countdown-block">
+         <div class="time-value" id="seconds">00</div>
+         <div class="time-unit">Seconds</div>
+     </div>
+
+<script src="/scripts/countdown.js"></script>
+
+ <style>
+     /*-----Countdown Section-----*/
+     .countdown-container {
+         display: flex;
+         justify-content: center;
+         gap: 0.1rem;
+         font-family: 'Montserrat', sans-serif;
+         z-index: 2;
+         pointer-events: none;
+         transition: opacity 800ms ease;
+         position: absolute;
+         margin: 0 auto;
+         width: 100%;
+         top: 45%;
+     }
+
+     .countdown-block {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         overflow: hidden;
+     }
+
+     .time-value {
+         font-size: 10vw;
+         font-weight: 800;
+         color: white;
+         height: 60px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .time-unit {
+         font-size: 0.7rem;
+         font-weight: 400;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         color: rgba(255, 255, 255, 0.6);
+     }
+
+     .time-separator {
+         font-size: 2rem;
+         align-self: center;
+         margin-top: -1rem;
+         color: rgba(255, 255, 255, 0.4);
+     }
+
+     @media (min-width: 400px) {
+         .countdown-container {
+             gap: 1rem
+         }
+
+         .time-value {
+             font-size: 2.5rem;
+             height: 60px;
+         }
+
+         .time-unit {
+             font-size: 0.7rem;
+         }
+
+         .time-separator {
+             font-size: 2rem;
+         }
+     }
+
+     @media (min-width: 600px) {
+         .time-value {
+             font-size: 3.5rem;
+             height: 80px;
+         }
+
+         .time-unit {
+             font-size: 0.9rem;
+         }
+
+         .time-separator {
+             font-size: 2.5rem;
+         }
+     }
+
+     @media screen and (min-width: 1440px) {
+         .time-value {
+             font-size: 5rem;
+         }
+
+         .time-unit {
+             font-size: 1.2rem;
+         }
+
+         .time-separator {
+             font-size: 2.5rem;
+         }
+     }
+ </style>
+ </div>        <h2 class="hero_header2">March 6th - 8th, UHI Moray</h2>
         <img class="hero_icon" src="/assets/crown-vector.svg" alt="Crown logo">
 
         <a class="hero_button" href="https://forms.office.com/e/pPrnUX0j1Y" target="_blank">
-            <div>Register now for 2025!</div>
+            <div>Register now for 2026!</div>
         </a>
 
         <script src="/scripts/grid.js"></script>
@@ -165,41 +283,41 @@
         <div class="sponsors_logos">
             <a href="https://www.moray.uhi.ac.uk/">
                 <img src="/assets/sponsors/uhi-moray.png" alt="UHI Moray">
-            </a> 
+            </a>
             <a href="https://codewizards.io/">
                 <img src="/assets/sponsors/code-wizards.svg" alt="Code Wizards">
-            </a> 
+            </a>
             <a href="https://jtcp.co.uk/">
                 <img src="/assets/sponsors/j-thomson.png" alt="J Thomson Colour Printers Ltd.">
-            </a> 
+            </a>
             <a href="http://www.lifestylemoray.scot/">
                 <img src="/assets/sponsors/lifestyle.png" alt="Lifestyle Magazine">
-            </a> 
+            </a>
             <a href="https://www.facebook.com/kathleenslittleshop/?locale=en_GB">
                 <img src="/assets/sponsors/littleLunchbox.svg" alt="The Little Lunchbox">
             </a>
             <a href="https://www.hnmedia.co.uk/">
                 <img src="/assets/sponsors/highlandNewsMedia.svg" alt="Highlands News and Media">
-            </a> 
+            </a>
             <a href="https://www.sicsa.ac.uk/">
                 <img src="/assets/sponsors/sisca.png" alt="Sisca">
-            </a> 
+            </a>
             <a href="https://hisa.uhi.ac.uk/">
                 <img src="/assets/sponsors/hisa.png" alt="Highlands and Islands Students' Association">
-            </a> 
+            </a>
             <a href="https://www.indiegamesquad.co.uk">
                 <img src="/assets/sponsors/indieGameSquadLogo.png" alt="Indie Game Squad - Where gaming comes together">
-            </a> 
+            </a>
             <a href="https://stikkz.com/">
                 <img src="/assets/sponsors/stikkz-media.png" alt="Stikkz Media">
-            </a> 
+            </a>
             <a href="https://www.tesco.com/">
                 <img src="/assets/sponsors/tesco.svg" alt="Tesco Plc">
-            </a> 
+            </a>
             <a href="https://www.linkedin.com/company/games-growth-agency/">
                 <img src="/assets/sponsors/games-growth-agency.jpg" alt="Games Growth Agency">
-            </a> 
-        </div>   
+            </a>
+        </div>
         <h2>Want to become a sponsor?</h2>
         <p>To become a sponsor, please contact: <a href="mailto:jacqui.taylor.moray@uhi.ac.uk">jacqui.taylor.moray@uhi.ac.uk</a></p>
     </div>
@@ -207,7 +325,7 @@
         <!--Footer-->
     <footer class="footer">
 
-        <p>©2025 Moray Game Jam</p>
+        <p>©2026 Moray Game Jam</p>
 
         <a href="https://static.onlinesurveys.ac.uk/media/account/72/survey/986030/question/privacy-notice-moray_game_jam_.docx">Privacy Policy</a>
 

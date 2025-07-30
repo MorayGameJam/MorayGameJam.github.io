@@ -60,32 +60,34 @@
 
 .hero_header {
     position: absolute;
-    left: 50%;
-    top: 42%;
-    transform: translate(-50%, -50%);
+    top: 30%;
     margin: 0px;
     font-size: 3.5rem;
     font-weight: 900;
     text-align: center;
     pointer-events: none;
     transition: opacity 800ms ease;
-    width: 90%;
+    width: 100%;
     z-index: 2;
 }
 
 .hero_header2 {
     position: absolute;
-    left: 50%;
-    top: 63%;
-    transform: translate(-50%, -65%);
+    top: 60%;
     margin: 0px;
     font-size: 1.7rem;
     font-weight: 600;
     text-align: center;
     pointer-events: none;
     transition: opacity 1200ms ease;
-    width: 80%;
+    width: 100%;
     z-index: 2;
+}
+
+@media (max-width: 600px) {
+    .hero_header {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -139,7 +141,8 @@
 }
 
 body.toggled>.hero_section>.hero_header,
-body.toggled>.hero_section>.hero_header2 {
+body.toggled>.hero_section>.hero_header2,
+body.toggled>.hero_section>.countdown-container {
     /*Toggles the header when tiles are clicked*/
     opacity: 0;
 }
@@ -184,7 +187,7 @@ body.toggled>.hero_section>#tiles>.tile:hover {
 
     /*Large desktop*/
     .hero_header {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     .hero_header2 {
@@ -204,7 +207,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
     text-align: center;
 }
 
-.description h1, .description h2 {
+.description h1,
+.description h2 {
     font-size: 1rem;
     padding-top: 100px;
     padding-bottom: 1rem;
@@ -260,7 +264,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
 @media screen and (min-width: 426px) {
 
     /*Tablet*/
-    .description h1, .description h2 {
+    .description h1,
+    .description h2 {
         padding-bottom: 2.5rem;
         font-size: 2.5rem;
     }
@@ -376,7 +381,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
     margin-right: auto;
 }
 
-.showreel_header h1, .showreel_header h2 {
+.showreel_header h1,
+.showreel_header h2 {
     cursor: default;
     margin-top: 1rem;
     font-size: 4rem;
@@ -384,14 +390,16 @@ body.toggled>.hero_section>#tiles>.tile:hover {
     color: white;
 }
 
-.showreel_header h1:hover, .showreel_header h2:hover {
+.showreel_header h1:hover,
+.showreel_header h2:hover {
     color: var(--silver);
 }
 
 @media screen and (max-width: 300px) {
 
     /*For extremely small screens only*/
-    .showreel_header>h1, .showreel_header>h2 {
+    .showreel_header>h1,
+    .showreel_header>h2 {
         font-size: 2rem;
     }
 }
@@ -440,7 +448,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
         width: 50%;
     }
 
-    .showreel_header h1, .showreel_header h2 {
+    .showreel_header h1,
+    .showreel_header h2 {
         font-size: 5rem;
     }
 
@@ -468,7 +477,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
 @media screen and (min-width: 1440px) {
 
     /*Large desktop*/
-    .showreel_header h1, .showreel_header h2 {
+    .showreel_header h1,
+    .showreel_header h2 {
         font-size: 8rem;
     }
 }
@@ -482,7 +492,8 @@ body.toggled>.hero_section>#tiles>.tile:hover {
     padding-bottom: 70px;
 }
 
-.sponsors_section>h1, .sponsors_section>h2 {
+.sponsors_section>h1,
+.sponsors_section>h2 {
     padding-bottom: 1rem;
     text-align: center;
 }
