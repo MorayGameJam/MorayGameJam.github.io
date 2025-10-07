@@ -4,6 +4,12 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
 main {
     background-color: var(--dark_purple);
 }
