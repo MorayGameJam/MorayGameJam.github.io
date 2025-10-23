@@ -1,0 +1,153 @@
+.firstLine {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.secondLine {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.thirdLine {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.fourthLine {
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: -10px;
+}
+
+.badges {
+    display: none;
+}
+
+
+.badges,
+.badges2 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    z-index: 3;
+    margin: 0 auto;
+    width: 125px;
+    height: 125px;
+    background: var(--light_purple);
+    border-radius: 100%;
+    border: 3px dashed white;
+    color: #FFF;
+    line-height: 25px;
+    text-align: center;
+    -webkit-animation: 3s ease-in-out 0s normal none infinite running swing;
+    -moz-animation: 3s ease-in-out 0s normal none infinite running swing;
+    -o-animation: 3s ease-in-out 0s normal none infinite running swing;
+    animation: 3s ease-in-out 0s normal none infinite running swing;
+
+    -webkit-transform-origin: 100px -71px;
+    -moz-transform-origin: 100px -71px;
+    -o-transform-origin: 100px -71px;
+    transform-origin: 100px -71px;
+}
+
+.badges:after,
+.badges2:after {
+    content: '';
+    position: absolute;
+    top: -70px;
+    width: 4px;
+    height: 81px;
+    border-radius: 0%;
+    background: var(--light_purple);
+}
+
+.badges:after{
+   left: 98px;
+}
+
+.badges2:after{
+   left: 66px;
+}
+
+@-webkit-keyframes swing {
+    0% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+@-moz-keyframes swing {
+    0% {
+        -moz-transform: rotate(5deg);
+    }
+
+    50% {
+        -moz-transform: rotate(-5deg);
+    }
+
+    100% {
+        -moz-transform: rotate(5deg);
+    }
+}
+
+@-o-keyframes swing {
+    0% {
+        -o-transform: rotate(5deg);
+    }
+
+    50% {
+        -o-transform: rotate(-5deg);
+    }
+
+    100% {
+        -o-transform: rotate(5deg);
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .badges2 {
+        display: none;
+    }
+
+    .badges {
+        display: inherit;
+    }
+
+    .badges {
+        left: 10%;
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .badges {
+        left: 15%;
+    }
+}
