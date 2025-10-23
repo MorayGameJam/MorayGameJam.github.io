@@ -23,6 +23,17 @@
     top: -10px;
 }
 
+.fifthline {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.sixthLine {
+    line-height: 42px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
 .badges {
     display: none;
 }
@@ -65,12 +76,12 @@
     background: var(--light_purple);
 }
 
-.badges:after{
-   left: 98px;
+.badges:after {
+    left: 98px;
 }
 
-.badges2:after{
-   left: 66px;
+.badges2:after {
+    left: 66px;
 }
 
 @-webkit-keyframes swing {
