@@ -19,6 +19,8 @@ main h1, main h2 {
 main p {
     text-align: left;
     font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .page-wrapper {
