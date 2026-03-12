@@ -2,7 +2,7 @@ const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
-const releaseDate = new Date("2026-03-06T12:00:00");
+const releaseDate = new Date("2027-03-12T12:00:00");
 let now = new Date();
 let diff = 0, days = 0, hours = 0, minutes = 0, seconds = 0;
 
