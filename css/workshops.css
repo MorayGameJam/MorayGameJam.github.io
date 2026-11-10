@@ -126,9 +126,13 @@ a.event-bright-button:active {
 }
 
 @media only screen and (min-width: 800px) {
-    main h1, main h2 {
+    main h1{
         padding-top: 20px;
         padding-bottom: 50px;
+    }
+
+    main h2 {
+        padding: 20px 0;
     }
 
     main p {
