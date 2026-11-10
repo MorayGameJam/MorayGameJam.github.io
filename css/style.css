@@ -316,7 +316,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 180px;
+  max-width: 260px;
   font-size: 20px;
   font-weight: 700;
   margin: 20px 2px;
@@ -328,5 +328,9 @@
   background-color: #501649;
   border: 2px solid #fff;
   color: #fff;
+  text-decoration: none;
+}
+
+a.mgjbutton {
   text-decoration: none;
 }
