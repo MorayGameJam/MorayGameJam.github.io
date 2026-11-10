@@ -316,7 +316,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 260px;
+  max-width: 300px;
   font-size: 20px;
   font-weight: 700;
   margin: 20px auto;
@@ -331,6 +331,14 @@
   text-decoration: none;
 }
 
-a.mgjbutton {
+.mgjbutton a {
   text-decoration: none;
+  color:inherit;
+  font-weight: inherit;
+}
+
+.mgjbutton a:hover {
+  text-decoration: none;
+  color:inherit;
+  font-weight: inherit;
 }
