@@ -305,21 +305,28 @@
   }
 
   /* a css button that should just work across the website without it being specific to a page */
-  .mgjbutton {
+.mgjbutton {
   background-color: #fff;
   border: 2px solid #fff;
   color: #222222;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 2px;
   cursor: pointer;
   border-radius: 50px;
 }
+
 .mgjbutton:hover {
   background-color: #501649;
   border: 2px solid #fff;
   color: #fff;
+  text-decoration: none;
 }
