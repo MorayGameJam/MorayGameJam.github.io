@@ -342,3 +342,19 @@
   color:inherit;
   font-weight: inherit;
 }
+
+.generic-content {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.generic-content p{
+    margin: 10px;
+}
+
+.generic-content ul {
+    list-style-type: disc;
+    color: white;
+    font-size: 18px;
+}
