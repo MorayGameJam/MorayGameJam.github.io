@@ -347,6 +347,9 @@
     display: flex;
     margin: 20px;
     flex-direction: column;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .generic-content p{
