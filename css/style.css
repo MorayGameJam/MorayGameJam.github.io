@@ -442,3 +442,26 @@ sponsors_section {
         width: 16vw;
     }
 }
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 20px;
+}
+
+.stories-container h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 16px 0 0 0;
+    text-align: left;
+}
+
+.judges-container p {
+    text-align: left;
+    margin: 0.5em 0;;
+}
