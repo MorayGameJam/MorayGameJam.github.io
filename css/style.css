@@ -461,7 +461,11 @@ sponsors_section {
     text-align: left;
 }
 
-.judges-container p {
+.stories-container p {
     text-align: left;
     margin: 0.5em 0;;
+}
+
+.stories-container img {
+    margin: 10px 0;
 }
