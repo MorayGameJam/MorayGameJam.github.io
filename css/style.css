@@ -183,14 +183,23 @@
   }
 
  #nav_buttons_PC a {
-    text-decoration: none;
+    /* text-decoration: none;
     display: block;
     height: 87px;
     line-height: 87px;
     padding: 0 1.25rem;
     align-items: center;
     font-size: 1.25rem;
+    color: white; */
+    text-decoration: none;
+    display: flex;
+    height: 87px;
+    line-height: 87px;
+    padding: 0 1.25rem;
+    font-size: 1rem;
     color: white;
+    justify-content: center;
+    align-items: center;
   }
 
   #nav_buttons_PC a:hover {
